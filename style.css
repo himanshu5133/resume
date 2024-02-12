@@ -31,6 +31,13 @@ body {
       animation: scroll 200s linear infinite;
     }
   }   
+
+#profile_pic img{
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+  box-shadow: 0 0 10px #2b81cd;
+}
 #headerTable{
     padding: 20px;
     /* align-items: center;
