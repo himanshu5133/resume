@@ -6,15 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <table>
+        <table id="headerTable">
             <tr>
-                <td><img src="https://avatars.githubusercontent.com/u/85412614?v=4" alt="Himanshu's picture"
+                <td id="profile_pic"><img src="https://avatars.githubusercontent.com/u/85412614?v=4" alt="Himanshu's picture"
                         style="width: 250px;height: 250px;"></td>
-                <td>
+                <td id="profile_content">
                     <h1>Himanshu Koli</h1>
                     <p><i>Electrical engineering student at IIT BHU</i></p>
 
@@ -60,22 +61,23 @@
         </section>
         <section id="experience">
             <h2>Experience</h2>
-            <p><strong>SDE intern at Razorpay</strong></p>
-            <ul>
-                <li>Solved the problem of missing Abandoned Checkout for specific devices like IOS and Android</li>
-                <li>API decomposition: Completely migrated logic of creating Abandoned Checkout from Monolith to Microservice. </li>
-                <li>Implemented Cron job to run in the backend to automate the process of creating Abandoned Checkout and integrated
-                    with Redis cache to store data.</li>
-                <li> <b>Exposure:</b> Golang, PHP, Redis cache | <b>Impact:</b> Increased Abandoned Checkout coverage by 15-20 percent</li>
-            </ul>
+            <article>
+                <h3><strong>SDE intern at Razorpay</strong></h3>
+                <ul>
+                    <li>Solved the problem of missing Abandoned Checkout for specific devices like IOS and Android</li>
+                    <li>API decomposition: Completely migrated logic of creating Abandoned Checkout from Monolith to Microservice. </li>
+                    <li>Implemented Cron job to run in the backend to automate the process of creating Abandoned Checkout and integrated
+                        with Redis cache to store data.</li>
+                    <li> <b>Exposure:</b> Golang, PHP, Redis cache | <b>Impact:</b> Increased Abandoned Checkout coverage by 15-20 percent</li>
+                </ul>
+            </article>
             <hr>
         </section>
         <section id="project">
             <h2>Projects</h2>
             <ul>
-                <li>
                     <article>
-                        <p><strong>Contact Management App</strong></p>
+                        <h3><strong>Contact Management App <a href="https://github.com/himanshu5133/Contact-management-app">github</a></strong></h3>
                         <ul>
                             <li>Implemented CRUD operations for contacts, covering functionalities such as creation, retrieval, updating, and deletion.</li>
                             <li>Integrated secure user authentication features, including user registration, login, and JWT-based access tokens.</li>
@@ -84,7 +86,7 @@
                         </ul>
                     </article>
                     <article>
-                        <p><strong>PenCraft: Blogging Platform</strong></p>
+                        <h3><strong>PenCraft: Blogging Platform <a href="https://github.com/himanshu5133/PenCraft">github</a></strong></h3>
                         <ul>
                             <li>EngineeredDeveloped a complete full-stack web application for blog posting, encompassing both front-end and back-end aspects.</li>
                             <li>Designed and implemented a user-friendly interface for blog submission, prioritizing simplicity and privacy</li>
@@ -93,43 +95,49 @@
                         </ul>
                     </article>
                     <article>
-                        <p><strong>Sorting Algorithm Visualizer</strong></p>
+                        <h3><strong>Sorting Algorithm Visualizer <a href="https://himanshu5133.github.io/Sorting_Algorithm_Visualizer/">Link</a></strong></h3>
                         <ul>
                             <li>Developed an interactive web application with a minimalist UI to visualize the mechanics of diverse sorting algorithms</li>
                             <li>Demonstrated a profound understanding of algorithmic principles through the implementation of sorting algorithms in JavaScriptImplemented sorting algorithms in JavaScript, demonstrating a deep understanding of algorithmic principles.</li>
                             <li><b>Exposure:</b> HTML, CSS, JavaScript</li>
                         </ul>
                     </article>
-                </li>
+                
             </ul>
             <hr>
         </section>
         <section id="por">
             <h2>Position of Responsibility</h2>
-            <p><strong>Coordinator at Think India Convention</strong></p>
-            <ul>
-                <li>Coordinated and managed a delegation exceeding 300 attendees, encompassing esteemed professors and students,
-                    throughout the ”Think India” occasion in Varanasi.</li>
-                <li>Displayed exceptional organizational prowess in managing the logistical elements of the event.</li>
-            </ul>
+            <article>
+                <h3><strong>Coordinator at Think India Convention</strong></h3>
+                <ul>
+                    <li>Coordinated and managed a delegation exceeding 300 attendees, encompassing esteemed professors and students,
+                        throughout the ”Think India” occasion in Varanasi.</li>
+                    <li>Displayed exceptional organizational prowess in managing the logistical elements of the event.</li>
+                </ul>
+            </article>
             <hr>
         </section>
         <section id="achievement">
             <h2>Achievements</h2>
-            <ul>
-                <li>Expert on Codeforces <a href="https://codeforces.com/profile/whaaam">Profile</a></li>
-                <li>Solved 1500 problems over various platforms like Codeforces, Interviewbit, Leetcode, gfg, etc</li>
-                <li>Secured global rank of 1287 out of 20k participants in Google kickstart’22 round H
-                </li>
-            </ul>
+            <article>
+                <ul>
+                    <li>Expert on Codeforces <a href="https://codeforces.com/profile/whaaam">Profile</a></li>
+                    <li>Solved 1500 problems over various platforms like Codeforces, Interviewbit, Leetcode, gfg, etc</li>
+                    <li>Secured global rank of 1287 out of 20k participants in Google kickstart’22 round H
+                    </li>
+                </ul>
+            </article>
             <hr>
         </section>
     </main>
     <!-- main ends -->
     <footer>
         <h2 id="connect">Contact</h2>
-        <p><i> <a href="tel:+919630692383">9630692383</a> <br> <a
-                    href="mailto:koliv5936@gmai.com">koliv5936@gmai.com</a>
+        <p><i> <a href="tel:+919630692383">9630692383</a> <br> 
+            <a href="mailto:koliv5936@gmai.com">koliv5936@gmai.com</a>
+            <a href="https://github.com/himanshu5133">Github</a>
+            <a href="https://www.linkedin.com/in/himanshu-koli-b26940201/">LinkedIn</a>
             </i></p>
         <!-- <a href="#">Back to Top</a> -->
     </footer>
